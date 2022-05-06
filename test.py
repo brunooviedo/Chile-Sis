@@ -97,8 +97,9 @@ def distancias():
 
         
 def main():
-    Ultimo_simos= None
+    
     while True:
+        Ultimo_simos= None
         text = f'{sismo_scraping()}'
         text2 = f'{distancias()}'
         if text != Ultimo_simos:
